@@ -1,5 +1,5 @@
 class Songs
-
+attr_accessor
 @@all = []
 
 def initialize
