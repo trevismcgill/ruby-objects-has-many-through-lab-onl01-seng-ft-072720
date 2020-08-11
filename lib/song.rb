@@ -1,5 +1,5 @@
 class Songs
-  
+
 @@all = []
 
 def initialize
