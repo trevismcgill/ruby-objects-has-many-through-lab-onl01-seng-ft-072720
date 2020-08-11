@@ -8,7 +8,6 @@ end
 
 def self.all
   @@all
-nd
-
+end
 
 end
