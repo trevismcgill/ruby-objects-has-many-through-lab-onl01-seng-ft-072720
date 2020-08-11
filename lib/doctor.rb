@@ -16,4 +16,16 @@ def self.all
   @@all
 end
 
+def appointments
+
+end
+
+def new_appointment
+
+end
+
+def patients
+
+end
+
 end
