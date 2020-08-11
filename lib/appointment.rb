@@ -1,9 +1,9 @@
 class Appointment
-  attr_accessor :name, :artist, :genre
+  attr_accessor :name
 
   @@all = []
 
-  def initialize(name, artist, genre)
+  def initialize(name)
     @name = name
     @artist = artist
     @genre = genre
