@@ -20,8 +20,11 @@ def new_appointment(date, doctor)
 Appointment.new(date, self, doctor)
 end
 
-  def appointments
+def appointments
   Appointment.all.select {|appointment| appointment.patient == self}
-  end
+end
 
+def doctors
+appointments.collect {|appointment| appointment.doctor}
+end
 end
