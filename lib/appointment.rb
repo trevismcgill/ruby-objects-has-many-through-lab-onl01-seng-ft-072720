@@ -5,8 +5,7 @@ class Appointment
 
   def initialize(name)
     @name = name
-    @artist = artist
-    @genre = genre
+
     save
   end
 
