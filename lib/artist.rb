@@ -25,7 +25,7 @@ def new_song
 end
 
 def genres
-
+songs.select {|song| song.genre}
 end
 
 end
