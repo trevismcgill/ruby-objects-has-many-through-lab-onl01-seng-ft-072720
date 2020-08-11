@@ -1,9 +1,10 @@
 class Songs
-attr_accessor
+attr_accessor :name, :artist, :genre
 
 @@all = []
 
-def initialize
+def initialize(name, artist, genre)
+  @name = name
 
 end
 
