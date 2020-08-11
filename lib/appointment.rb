@@ -5,7 +5,6 @@ class Appointment
 
   def initialize(name)
     @name = name
-
     save
   end
 
